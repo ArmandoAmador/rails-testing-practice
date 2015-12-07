@@ -1,9 +1,5 @@
 class String
-  def is_number?
-    if self =~ /^\d+$/
-      true
-    else
-      false
-    end
+  def number?
+    self =~ /^\d+$/
   end
 end
